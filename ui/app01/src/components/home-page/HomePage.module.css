@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 60px auto;
+    background-color: #f5f5f5;
+    height: 800px;
+}
+
+.form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.form button {
+    margin: 20px 0;
+    padding: 20px 45px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #3498db;
+    transition:  background-color 1.5s 0s;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+}
+
+.form button:hover {
+    cursor: pointer;
+    transition:  background-color 1.5s 0s;
+    background-color: #297fb8;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-left: 300px;
+}
+
+.wrongInput {
+    border: 1px solid #FF0000;
+    background-color: #FFCCCC ;
+}
+
+.wrongInput:focus {
+    outline:#FF0000;
+}
+
+.showPassword {
+    color: #3498db;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.showPassword:active {
+    color: #FF0000;
+}
+
+.fetchError {
+    color: #FF0000;
+}
+
+.signIn {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signIn * {
+    margin-bottom: 20px;
+}
+
+.hLine {
+    background-color: #e0e0e0;
+    height: 1px;
+    width: 300px;
+}
+
+.signIn button {
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    border: none;
+    background-color: #42B72A;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 1.5s 0s;
+}
+
+.signIn button:hover {
+    cursor: pointer;
+    background-color: #36A420;
+    transition: background-color 1.5s 0s;
+}

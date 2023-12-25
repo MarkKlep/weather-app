@@ -1,0 +1,21 @@
+.signInForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signInForm *:first-child {
+    margin-top: 30px;
+}
+
+.signInForm * {
+    margin-bottom: 10px;
+}
+
+.signInForm button {
+    height: 20px;
+    width: 60px;
+    background-color: #3498db;
+    font-size: 10px;
+    font-weight: 200;
+}

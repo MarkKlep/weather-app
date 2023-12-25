@@ -1,0 +1,51 @@
+.weather {
+    width: 300px;
+    border-radius: 6px;
+    background-color: #333;
+    box-shadow: 25px -5px 20px rgb(0 0 0 / 30%);
+    margin: 20px auto 0 auto;
+    padding: 0 0 10px 0;
+    color: #fff
+}
+
+.top, .bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.weatherIcon {
+    width: 100px;
+}
+
+.temperature {
+    font-weight: 800;
+    letter-spacing: -2px;
+    font-size: 36px;
+}
+
+.detail {
+    width: 100%;
+    padding: 0 0 0 20px;
+}
+
+.parameterRow {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.parameterLabel {
+    text-align: left;
+    font-weight: 400;
+}
+
+.parameterValue {
+    text-align: right;
+    font-weight: 600;
+    padding-left: 25px;
+}
+
+.parameterRow:first-child .parameterLabel {
+    border-bottom: 1px solid #fff;
+}

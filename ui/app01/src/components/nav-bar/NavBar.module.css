@@ -1,0 +1,16 @@
+.navbar {
+    height: 40px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar NavLink {
+    cursor: pointer;
+}
+
+.navbar:hover {
+    background-color: #fff;
+    transition: background-color 1.5s 0s;
+}
